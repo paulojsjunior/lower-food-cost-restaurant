@@ -15,7 +15,8 @@
   text-align: center;
 }
 
-.discount-introduction h2, h6 {
+.discount-introduction h2,
+.discount-introduction h6 {
   text-transform: uppercase;
   margin: 12px 8px 0 8px;
 }
