@@ -6,7 +6,15 @@
   font: 700 3.75rem/1.1 "Montserrat", sans-serif;
 }
 
+.font-1-m {
+  font: 700 3rem/1.1 "Montserrat", sans-serif;
+}
+
 .font-6-s {
   font: 700 1.125rem/1.1 "Montserrat", sans-serif;
   text-transform: uppercase;
+}
+
+.font-2-s {
+  font: 400 1.125rem/1.5 "Raleway", sans-serif;
 }
