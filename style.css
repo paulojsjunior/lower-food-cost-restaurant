@@ -1,3 +1,6 @@
+/* Components */
+@import url(css/components.css/typography.css);
+
 /* Global */
 @import url(css/global/global.css);
 
