@@ -1,0 +1,22 @@
+.header-bg {
+  background-color: #000;
+}
+
+.header-content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.header-content li a {
+  display: block;
+  padding: 12px 16px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
