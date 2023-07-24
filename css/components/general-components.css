@@ -1,0 +1,27 @@
+.container {
+  max-width: 1150px;
+  padding: 120px 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 800px) {
+  .container {
+  padding: 60px 40px;
+  }
+}
+
+.button {
+  display: inline-block;
+  background-color:#f1ae0e;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 36px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
