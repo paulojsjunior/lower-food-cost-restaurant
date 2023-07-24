@@ -1,8 +1,13 @@
 /* Components */
-@import url(css/components.css/typography.css);
+@import url(css/components/general-components.css);
+@import url(css/components/typography.css);
+@import url(css/components/colors.css);
 
 /* Global */
 @import url(css/global/global.css);
 
 /* Header */
 @import url(css/global/header.css);
+
+/* Homepage */
+@import url(css/home/introduction.css);
