@@ -1,7 +1,3 @@
-.container.second-galery-content {
-  padding-top: 0px;
-}
-
 .second-galery-content {
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +16,6 @@
   width: 360px;
   border-radius: 50px;
   position: relative;
-  opacity: 0.8;
 }
 
 .second-galery-block h6 {
