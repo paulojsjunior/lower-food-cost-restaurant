@@ -1,0 +1,67 @@
+.container.second-meal-content {
+  padding-top: 0px;
+}
+
+.second-meal-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 48px;
+}
+
+.second-meal-content img {
+  height: 520px;
+  width: 520px;
+  border-radius: 50px;
+}
+
+.second-meal-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: end;
+}
+
+.second-meal-description h2 {
+  text-align: start;
+  margin-top: 16px;
+}
+
+.second-meal-description p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .second-meal-content img {
+    height: 260px;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .second-meal-content img {
+    height: 360px;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .second-meal-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .second-meal-description h2,
+  .second-meal-description h6,
+  .second-meal-description p {
+    text-align: center;
+  }
+
+  .second-meal-description h2 {
+    font-size: 1.5rem;
+  }
+  
+  .second-meal-content p {
+    margin-bottom: 20px;
+  }
+}
