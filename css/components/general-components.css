@@ -1,3 +1,7 @@
+.general-bg {
+  background-color: var(--color-11);
+}
+
 .container {
   max-width: 1150px;
   padding: 120px 80px;

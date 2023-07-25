@@ -1,7 +1,3 @@
-.first-galery-bg {
-  background-color: var(--color-11);
-}
-
 .first-galery-content {
   display: flex;
   flex-wrap: wrap;
