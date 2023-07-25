@@ -1,0 +1,50 @@
+.menu-title {
+  display: grid;
+  gap: 28px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.menu-options-general {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 28px;
+}
+
+.menu-options img {
+  height: 500px;
+  width: 550px;
+}
+
+.menu-options > .button {
+  background-color: var(--color-p1);
+  margin-top: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-12);
+}
+
+@media (max-width: 800px) {
+  .menu-options-general {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-title h2 {
+    font-size: 1.5rem;
+  }
+  .menu-options img {
+    height: 280px;
+    width: 320px;
+  }
+}
