@@ -41,15 +41,14 @@
 
 .button {
   display: inline-block;
-  background-color:#f1ae0e;
-  color: #fff;
+  background-color: var(--color-p1);
+  color: var(--color-12);
   letter-spacing: 1px;
   font-family: "Raleway", sans-serif;
-  font-size: .875rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   padding: 20px 36px;
-  margin-top: 20px;
   border-radius: 50px;
 }
