@@ -1,0 +1,56 @@
+.subscribe-bg {
+  background-image: url(../../img/vegetables-set-left-black-slate.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.container.subscribe-area {
+  padding-top: 120px;
+}
+
+.subscribe-area > .discount-ticket {
+  margin-bottom: 80px;
+}
+
+.subscribe-content {
+  display: grid;
+  gap: 28px;
+}
+
+.subscribe-quote-email {
+  display: flex;
+  align-self: start;
+}
+
+.subscribe-quote-email > a {
+  background-color: var(--color-p1);
+  margin-top: 0px;
+}
+
+.subscribe-quote-email > input {
+  border-radius: 20px;
+  flex-grow: .5;
+  margin-right: 20px;
+  border: 0px;
+  padding: 18px 16px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+@media (max-width: 600px) {
+  .subscribe-quote-email {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .subscribe-content h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .subscribe-quote-email > input {
+    padding: 18px 16px;
+    margin-right: 0px;
+  }
+}
