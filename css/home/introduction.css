@@ -19,6 +19,14 @@
   margin-top: 20px;
 }
 
+.introdution-infos > .button {
+  background-color: var(--color-p2);
+  margin-top: 20px;
+  font-size: .875rem;
+  font-weight: 700;
+  color: var(--color-0);
+}
+
 @media (max-width: 600px) {
   .introdution-content {
     display: flex;
