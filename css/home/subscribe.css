@@ -23,11 +23,6 @@
   align-self: start;
 }
 
-.subscribe-quote-email > a {
-  background-color: var(--color-p1);
-  margin-top: 0px;
-}
-
 .subscribe-quote-email > input {
   border-radius: 20px;
   flex-grow: .5;

@@ -25,14 +25,6 @@
   width: 550px;
 }
 
-.menu-options > .button {
-  background-color: var(--color-p1);
-  margin-top: 0px;
-  font-size: 1rem;
-  font-weight: 400;
-  color: inherit;
-}
-
 @media (max-width: 800px) {
   .menu-options-general {
     grid-template-columns: 1fr;
