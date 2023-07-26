@@ -15,6 +15,23 @@
   }
 }
 
+.discount-ticket {
+  display: flex;
+  max-width: max-content;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-p1);
+  padding: 50px 40px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.discount-ticket h2,
+.discount-ticket h6 {
+  text-transform: uppercase;
+  margin: 12px 8px 0 8px;
+}
+
 .button {
   display: inline-block;
   background-color:#f1ae0e;
