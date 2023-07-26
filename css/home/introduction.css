@@ -1,24 +1,11 @@
+.container.introduction-content {
+  padding-top: 120px;
+}
+
 .introduction-bg {
   background-image: url(../../img/introduction-img.jpg);
   background-size: cover;
   background-position: 50% 50%;
-}
-
-.discount-introduction {
-  display: flex;
-  max-width: max-content;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-p1);
-  padding: 50px 40px;
-  border-radius: 100%;
-  text-align: center;
-}
-
-.discount-introduction h2,
-.discount-introduction h6 {
-  text-transform: uppercase;
-  margin: 12px 8px 0 8px;
 }
 
 .introdution-infos h1 {
