@@ -19,7 +19,7 @@
   margin-top: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .introdution-content {
     display: flex;
     align-items: center;
@@ -33,15 +33,15 @@
     margin-right: auto;
   }
 
+  .discount-introduction h2 {
+    font-size: 1.75rem;
+  }
+
   .introdution-infos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-
-  .discount-introduction h2 {
-    font-size: 1.75rem;
   }
 
   .introdution-infos h1 {
