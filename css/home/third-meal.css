@@ -1,0 +1,62 @@
+.third-meal-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 48px;
+}
+
+.third-meal-content img {
+  height: 520px;
+  border-radius: 50px;
+}
+
+.third-meal-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: end;
+}
+
+.third-meal-description h2 {
+  text-align: start;
+  margin-top: 16px;
+}
+
+.third-meal-description p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .third-meal-content img {
+    height: 260px;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .third-meal-content img {
+    height: 360px;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .third-meal-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .third-meal-description h2,
+  .third-meal-description h6,
+  .third-meal-description p {
+    text-align: center;
+  }
+
+  .third-meal-description h2 {
+    font-size: 1.5rem;
+  }
+  
+  .third-meal-content p {
+    margin-bottom: 20px;
+  }
+}
