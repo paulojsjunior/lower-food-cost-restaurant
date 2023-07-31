@@ -1,19 +1,20 @@
 .second-galery-content ul {
   display: flex;
-  gap: 28px;
   margin-right: auto;
   margin-left: auto;
+  gap: 12px;
+  padding: 0px;
   overflow-x: auto;
 }
 
 .second-galery-content li {
   flex: 1;
-  min-width: 320px;
+  min-width: 280px;
 }
 
 .second-galery-content img {
-  height: 320px;
-  width: 320px;
+  height: 370px;
+  width: 370px;
 }
 
 /* .second-galery-content {
