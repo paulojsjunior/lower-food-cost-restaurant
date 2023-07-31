@@ -1,0 +1,43 @@
+.container.contact {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.contact-content {
+  display: grid;
+  gap: 24px;
+  text-align: center;
+}
+
+.contact-content .image {
+  background-color: var(--color-p1);
+  height: 40px;
+  width: 40px;
+  padding: 12px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.contact-content .image img {
+  object-fit: contain;
+  width: auto;
+  height: auto;
+  border-radius: 0px;
+}
+
+.contact-content p, 
+.contact-content a  {
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}
